@@ -2,7 +2,7 @@
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "https://particleb.github.io/"
 DefaultContentLanguage  = "en"
-title                   = "ParticleB Blog"
+title                   = "ParticleBlog"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
@@ -40,14 +40,14 @@ disableLanguages        = []
     iOSColor            = "#ffffff"
 
   [params.header]
-    navbarTitle         = "ParticleB"
+    navbarTitle         = "ParticleBlog"
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
     languageMenu        = false
 
   [params.intro]
-    header                = "ParticleB"
+    header                = "ParticleBlog"
     paragraph             = "Be Simple, Be Curious"
     rssIntro              = false
     socialIntro           = true
@@ -58,13 +58,13 @@ disableLanguages        = []
       src                 = "img/main/logo.jpg"
       shape               = "circle"
       width               = ""
-      alt                 = "ParticleB"
+      alt                 = "ParticleBlog"
 
   [params.sidebar]
     about               = "ParticleB is focused on designing mathematical, calculational, and complex problems and turning them into data products and software"
     postAmount          = 5
-    categories          = true
-    categoriesByCount   = true
+    categories          = false
+    categoriesByCount   = false
 
   [params.footer]
     rssFooter           = true
